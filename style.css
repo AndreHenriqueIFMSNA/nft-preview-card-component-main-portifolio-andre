@@ -1,4 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html{
+    height: 100%;
+}
+
 body{
-    font-size: 11px; text-align: center; 
-    color: hsl(228, 45%, 44%); 
+   background-color: hwb(216 5% 83%);
+   font-family: 'Outfit', sans-serif;
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   margin: 0px;
+}
+
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+h2{
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}   
+
+img{
+    border-radius: 7px;
+}
+
+#box-img{
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+}
+
+#nft-image{
+    width: 100%;
+    height: auto;
+}
+
+#box-card{
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1rem;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 50%;
+ 
+}
+
+#text-description{
+    color:grey;
+}
+
+#box-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-creater{
+    display: flex;
+    align-items: center;
+}
+
+#text-value{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    
+}
+
+#text-days{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+
+#text-creater-span1{
+    color: grey;
+}
+
+#text-creater-span2{
+    color:hsl(0, 0%, 100%); 
+}
+
+#image-creater{
+    border-style: solid;
+    border-radius: 30px;
+    border-color: hsl(0, 0%, 100%) ;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
