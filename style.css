@@ -39,31 +39,26 @@ img{
 }
 
 #box-img{
-    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px;
     width: 100%;
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 9px;
 }
 
 #nft-image{
     width: 100%;
     height: auto;
-}
-
-
-#nft-image-hover{
-    position: absolute;
-    opacity: 0%;
-    padding: 118px;
     
 }
 
-#nft-image-hover:hover{
-    position: absolute;
-    opacity: 80%;
-    background-color:  hsl(178, 100%, 50%);
+#nft-image:hover{
+    opacity: 20%;
 }
 
 
