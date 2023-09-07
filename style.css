@@ -17,9 +17,8 @@ body{
 
 main{
    display: flex;
-   justify-content: center;
-   align-items: center;
-
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 h2{
@@ -37,6 +36,11 @@ h2:hover{
 img{
     border-radius: 7px;
 }
+
+#box-main{
+    display: flex;
+}
+
 
 #box-img{
     display: flex;
@@ -159,4 +163,5 @@ hr{
     margin-bottom: 20px;
     opacity: 10%;
 }
+
 
